@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="pokedex-2.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="pokedex-container">
+        
+        <div class="pokedex__header">
+            <div class="pokedex__header-title">
+                <h1>POKEDEX</h1>
+            </div>
+            <div class="pokedex__header-search">
+                <form action="" id="searchPokemon">
+                    <input type="text" id="pokemon">
+                    
+                    <img class="imgBtnSearch"  src="/assets/boton pokemon.webp" alt="pokeball">
+                </form>
+            </div>
+        </div>
+        <div class="pokemons-container"></div>
+
+    </div>
+    <div data-function ="b-boton-cargar-mas">
+        <button class="boton-cargar-mas__item">Cargar más</button>
+    </div>
+    <div data-function ="b-boton-cargar-menos">
+        <button class="boton-cargar-menos__item">Cargar menos</button>
+    </div>
+</body>
+</html>
